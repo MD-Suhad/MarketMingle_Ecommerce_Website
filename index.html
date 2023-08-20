@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Market Mingle Website</title>
-</head>
-<body>
-   <h1>this is market mingle website</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Mingle Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section class="navbar">
+    <div class="nav">
+      <img src="./img/logo.png" class="brand-logo" alt="logo"/>
+      <div class="nav-items">
+         <div class="search">
+            <input type="text" class="search-box" placeholder="Search brand, 
+             product">
+            <button class="search-btn">search</button>
+         </div>
+         <a href="#"><img src="./img/user.jpg" alt=""></a>
+         <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+      
+    <ul class="links-container">
+      <li><a href="index.html"  class="active links">Home</a></li>
+      <li><a href="shop.html"   class="links">Shop</a></li>
+      <li><a href="blog.html"   class="links">Blog</a></li>
+      <li><a href="about.html"  class="links">About</a></li>
+      <li><a href="career.html" class="links">Career</a></li>
+      <!-- <li><a href="#"><img src="./img/user.jpg" alt=""></a></li>
+      <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> 
+      </a></li> -->
+    </ul>
+    </section>
+    <section class="hero">
+      <h4>Trade-in-offer</h4>
+      <h2>Super Value Deals</h2>
+      <h1>On all products</h1>
+      <p>save more with coupons & up to 70% off!</p>
+      <button>Shop Now</button>
+    </section>
 
-   <script
-   src="/Script/main.js"
-   ></script>
-</body>
+    <script src="/Script/main.js"></script>
+  </body>
 </html>
